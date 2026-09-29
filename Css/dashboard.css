@@ -1,0 +1,566 @@
+﻿/* =========================================================
+   ONLINE EXAM HALL ALLOCATION SYSTEM
+   DASHBOARD STYLE SHEET
+   VS2010 COMPATIBLE VERSION
+   ========================================================= */
+
+
+/* =========================================================
+   GLOBAL DASHBOARD LAYOUT
+   ========================================================= */
+
+.dashboard {
+    width: 100%;
+    min-height: 650px;
+    overflow: hidden;
+}
+
+
+/* =========================================================
+   SIDEBAR
+   ========================================================= */
+
+.sidebar {
+    width: 250px;
+    min-height: 650px;
+    background: #172f55;
+    color: #ffffff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
+
+
+/* =========================================================
+   SIDEBAR BRAND
+   ========================================================= */
+
+.sidebar-brand {
+    height: 90px;
+    padding: 0 15px;
+    border-bottom: 1px solid #29466c;
+    line-height: normal;
+}
+
+.sidebar-logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;
+    background: #29466c;
+    display: inline-block;
+    text-align: center;
+    line-height: 42px;
+    margin-right: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    vertical-align: top;
+}
+
+.brand-title {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+.brand-subtitle {
+    display: block;
+    color: #aebed3;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    margin-left: 52px;
+    margin-top: -14px;
+}
+
+
+/* Compatibility with older class names */
+
+.sidebar-brand-text {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.sidebar-brand-subtitle {
+    display: block;
+    font-size: 10px;
+    font-weight: 400;
+    color: #aebed3;
+    margin-top: 2px;
+}
+
+
+/* =========================================================
+   SIDEBAR NAVIGATION
+   ========================================================= */
+
+.sidebar-nav {
+    padding: 25px 14px;
+}
+
+.nav-section-title {
+    font-size: 10px;
+    font-weight: 700;
+    color: #7f96b5;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    padding: 0 12px;
+    margin-bottom: 10px;
+}
+
+.nav-item {
+    display: block;
+    height: 46px;
+    padding: 0 13px;
+    margin-bottom: 4px;
+    border-radius: 8px;
+    color: #d0dbea;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 46px;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    background: #24446d;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-item.active {
+    background: #2867b2;
+    color: #ffffff;
+}
+
+.nav-icon {
+    display: inline-block;
+    width: 24px;
+    margin-right: 10px;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+
+/* =========================================================
+   MAIN AREA
+   ========================================================= */
+
+.dashboard-main {
+    margin-left: 250px;
+    width: 75%;
+    min-height: 650px;
+}
+
+
+/* =========================================================
+   TOP BAR
+   ========================================================= */
+
+.topbar {
+    height: 80px;
+    background: #ffffff;
+    border-bottom: 1px solid #e8edf3;
+    padding: 0 32px;
+    line-height: 80px;
+    position: relative;
+}
+
+.topbar-title {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #172b4d;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.topbar-right {
+    float: right;
+    height: 80px;
+    line-height: 80px;
+}
+
+.user-profile {
+    height: 80px;
+    line-height: 80px;
+}
+
+.user-avatar {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: #e8f0fb;
+    color: #205ca8;
+    display: inline-block;
+    text-align: center;
+    line-height: 38px;
+    font-weight: 700;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.user-name {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    color: #344054;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.user-role {
+    font-size: 11px;
+    color: #98a2b3;
+    margin-top: 2px;
+}
+
+
+/* =========================================================
+   DASHBOARD CONTENT
+   ========================================================= */
+
+.dashboard-content {
+    padding: 30px 32px;
+    background: #f5f7fb;
+    min-height: 570px;
+}
+
+
+/* =========================================================
+   WELCOME SECTION
+   ========================================================= */
+
+.welcome-section {
+    margin-bottom: 28px;
+}
+
+.welcome-title {
+    font-size: 27px;
+    font-weight: 700;
+    color: #172b4d;
+    margin: 0;
+}
+
+.welcome-subtitle {
+    margin-top: 6px;
+    color: #8792a2;
+    font-size: 14px;
+}
+
+
+/* =========================================================
+   STAT CARDS
+   ========================================================= */
+
+.stats-grid {
+    width: 100%;
+    margin-bottom: 28px;
+    overflow: hidden;
+}
+
+.stat-card {
+    width: 21%;
+    min-height: 70px;
+    background: #ffffff;
+    border: 1px solid #e8edf3;
+    border-radius: 12px;
+    padding: 22px;
+    float: left;
+    margin-right: 1.5%;
+    box-shadow: 0 4px 18px #e5eaf1;
+}
+
+.stat-card:last-child {
+    margin-right: 0;
+}
+
+.stat-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 48px;
+    margin-right: 15px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.stat-icon.blue {
+    background: #e9f2ff;
+    color: #2867b2;
+}
+
+.stat-icon.green {
+    background: #e8f7ef;
+    color: #198754;
+}
+
+.stat-icon.orange {
+    background: #fff3df;
+    color: #c77b00;
+}
+
+.stat-icon.purple {
+    background: #f0eafd;
+    color: #7651c7;
+}
+
+.stat-number {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 700;
+    color: #172b4d;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+.stat-label {
+    font-size: 12px;
+    color: #8792a2;
+    margin-top: 3px;
+    margin-left: 63px;
+}
+
+.stats-grid:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/* =========================================================
+   DASHBOARD GRID
+   ========================================================= */
+
+.dashboard-grid {
+    width: 100%;
+    overflow: hidden;
+}
+
+.dashboard-grid-left {
+    width: 64%;
+    float: left;
+    margin-right: 2%;
+}
+
+.dashboard-grid-right {
+    width: 34%;
+    float: left;
+}
+
+
+/* =========================================================
+   DASHBOARD PANEL
+   ========================================================= */
+
+.dashboard-panel {
+    background: #ffffff;
+    border: 1px solid #e8edf3;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.panel-header {
+    padding: 20px 22px;
+    border-bottom: 1px solid #edf0f5;
+    min-height: 30px;
+}
+
+.panel-title {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #172b4d;
+}
+
+.panel-subtitle {
+    font-size: 12px;
+    color: #8792a2;
+    margin-top: 4px;
+}
+
+.panel-header .btn {
+    float: right;
+}
+
+.panel-body {
+    padding: 20px 22px;
+}
+
+
+/* =========================================================
+   QUICK ACTIONS
+   ========================================================= */
+
+.quick-actions {
+    width: 100%;
+    overflow: hidden;
+}
+
+.quick-action {
+    width: 42%;
+    min-height: 70px;
+    padding: 17px;
+    border: 1px solid #e6ebf1;
+    border-radius: 9px;
+    color: #344054;
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    text-decoration: none;
+}
+
+.quick-action:hover {
+    border-color: #2867b2;
+    background: #f8fbff;
+}
+
+.quick-action-icon {
+    font-size: 20px;
+    margin-bottom: 9px;
+}
+
+.quick-action-title {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.quick-action-text {
+    font-size: 11px;
+    color: #8792a2;
+    margin-top: 3px;
+}
+
+
+/* =========================================================
+   BUTTON ALIGNMENT
+   ========================================================= */
+
+.panel-header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/* =========================================================
+   RESPONSIVE - TABLET
+   ========================================================= */
+
+@media screen and (max-width: 1100px) {
+
+    .stat-card {
+        width: 42%;
+        margin-right: 2%;
+        margin-bottom: 18px;
+    }
+
+    .dashboard-grid-left,
+    .dashboard-grid-right {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+    }
+
+}
+
+
+/* =========================================================
+   RESPONSIVE - MOBILE
+   ========================================================= */
+
+@media screen and (max-width: 768px) {
+
+    .sidebar {
+        width: 70px;
+    }
+
+    .sidebar-brand {
+        height: 80px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .sidebar-logo {
+        margin-right: 0;
+        margin-top: 18px;
+    }
+
+    .brand-title,
+    .brand-subtitle,
+    .sidebar-brand-text,
+    .sidebar-brand-subtitle,
+    .nav-section-title {
+        display: none;
+    }
+
+    .nav-item {
+        padding: 0;
+        text-align: center;
+        font-size: 0;
+    }
+
+    .nav-item span {
+        display: none;
+    }
+
+    .nav-icon {
+        display: inline-block;
+        width: 100%;
+        margin-right: 0;
+        font-size: 15px;
+    }
+
+    .dashboard-main {
+        margin-left: 70px;
+        width: 85%;
+    }
+
+    .dashboard-content {
+        padding: 22px;
+    }
+
+    .stat-card {
+        width: 90%;
+        float: none;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .topbar {
+        padding: 0 18px;
+    }
+
+    .user-name,
+    .user-role {
+        display: none;
+    }
+
+    .user-avatar {
+        margin-right: 0;
+    }
+
+}
+
+
+/* =========================================================
+   CLEARFIX
+   ========================================================= */
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}

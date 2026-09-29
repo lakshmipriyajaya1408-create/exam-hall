@@ -1,0 +1,280 @@
+﻿/* =========================================================
+   ONLINE EXAM HALL ALLOCATION SYSTEM
+   GLOBAL STYLE SHEET
+   ========================================================= */
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    background: #f5f7fb;
+    color: #26364a;
+    font-size: 14px;
+}
+
+/* Links */
+
+a {
+    color: #205ca8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Main container */
+
+.page-container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* Content wrapper */
+
+.content-wrapper {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* Page title */
+
+.page-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #172b4d;
+    margin-bottom: 8px;
+}
+
+.page-subtitle {
+    font-size: 14px;
+    color: #7b8798;
+    margin-bottom: 28px;
+}
+
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    border: none;
+    border-radius: 7px;
+    padding: 11px 20px;
+
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+
+    cursor: pointer;
+    text-align: center;
+
+    transition: all 0.2s ease;
+}
+
+.btn-primary {
+    background: #205ca8;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background: #174b8e;
+}
+
+.btn-secondary {
+    background: #eef2f7;
+    color: #344054;
+}
+
+.btn-secondary:hover {
+    background: #e2e8f0;
+}
+
+.btn-success {
+    background: #198754;
+    color: #ffffff;
+}
+
+.btn-danger {
+    background: #dc3545;
+    color: #ffffff;
+}
+
+.btn-warning {
+    background: #f0ad4e;
+    color: #ffffff;
+}
+
+/* Cards */
+
+.card {
+    background: #ffffff;
+    border: 1px solid #e7ebf1;
+    border-radius: 12px;
+
+    padding: 24px;
+
+    box-shadow: 0 5px 20px rgba(30, 50, 80, 0.05);
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 650;
+    color: #172b4d;
+    margin-bottom: 6px;
+}
+
+.card-subtitle {
+    color: #8792a2;
+    font-size: 13px;
+}
+
+/* Alerts */
+
+.alert {
+    padding: 13px 16px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.alert-success {
+    background: #eaf7ef;
+    color: #176b3a;
+    border: 1px solid #c9ead6;
+}
+
+.alert-danger {
+    background: #fdecec;
+    color: #a52a2a;
+    border: 1px solid #f4caca;
+}
+
+.alert-warning {
+    background: #fff7e6;
+    color: #8a5a00;
+    border: 1px solid #f2dfb0;
+}
+
+.alert-info {
+    background: #eaf4ff;
+    color: #17558c;
+    border: 1px solid #cce4fa;
+}
+
+/* Badge */
+
+.badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.badge-active {
+    background: #e7f6ec;
+    color: #198754;
+}
+
+.badge-inactive {
+    background: #fdeaea;
+    color: #dc3545;
+}
+
+.badge-pending {
+    background: #fff4db;
+    color: #996c00;
+}
+
+/* Text helpers */
+
+.text-primary {
+    color: #205ca8;
+}
+
+.text-success {
+    color: #198754;
+}
+
+.text-danger {
+    color: #dc3545;
+}
+
+.text-muted {
+    color: #8792a2;
+}
+
+/* Spacing */
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+/* Loading */
+
+.loading {
+    text-align: center;
+    padding: 30px;
+    color: #8792a2;
+}
+
+/* Empty state */
+
+.empty-state {
+    text-align: center;
+    padding: 50px 20px;
+    color: #8792a2;
+}
+
+.empty-state h3 {
+    color: #536174;
+    margin-bottom: 8px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+
+    .content-wrapper {
+        padding: 20px;
+    }
+
+    .page-title {
+        font-size: 23px;
+    }
+
+}
